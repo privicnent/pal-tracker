@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.pivotal.pal.tracker.EnvControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-29T07:01:43" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.001">
+<testsuite name="io.pivotal.pal.tracker.EnvControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-29T09:01:49" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.001">
   <properties/>
   <testcase name="getEnv()" classname="io.pivotal.pal.tracker.EnvControllerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

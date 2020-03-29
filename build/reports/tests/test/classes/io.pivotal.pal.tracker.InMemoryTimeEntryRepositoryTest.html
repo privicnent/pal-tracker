@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - WelcomeControllerTest</title>
+<title>Test results - InMemoryTimeEntryRepositoryTest</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>WelcomeControllerTest</h1>
+<h1>InMemoryTimeEntryRepositoryTest</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/io.pivotal.pal.tracker.html">io.pivotal.pal.tracker</a> &gt; WelcomeControllerTest</div>
+<a href="../packages/io.pivotal.pal.tracker.html">io.pivotal.pal.tracker</a> &gt; InMemoryTimeEntryRepositoryTest</div>
 <div id="summary">
 <table>
 <tr>
@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">8</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.001s</div>
+<div class="counter">0.087s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,6 +63,9 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -75,11 +78,58 @@
 </tr>
 </thead>
 <tr>
-<td class="success">itSaysHello()</td>
+<td class="success">create()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">delete()</td>
+<td class="success">0.054s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteKeepsTrackOfLatestIdProperly()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">find()</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
+<tr>
+<td class="success">find_MissingEntry()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">list()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">update()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">update_MissingEntry()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
 </table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>isEmpty == false
+isEmpty == true
+chk hasNext
+isEmpty == false
+isEmpty == true
+chk hasNext
+</pre>
+</span>
 </div>
 </div>
 <div id="footer">

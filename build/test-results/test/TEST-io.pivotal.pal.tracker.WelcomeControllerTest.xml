@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.pivotal.pal.tracker.WelcomeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-29T07:01:43" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.045">
+  <properties/>
+  <testcase name="itSaysHello()" classname="io.pivotal.pal.tracker.WelcomeControllerTest" time="0.045"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

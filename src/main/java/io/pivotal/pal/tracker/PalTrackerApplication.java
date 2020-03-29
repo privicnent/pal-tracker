@@ -12,8 +12,6 @@ public class PalTrackerApplication {
 
     @Bean
     TimeEntryRepository timeEntryRepository(DataSource mysqlDataSource) {
-
-
         return new JdbcTimeEntryRepository(mysqlDataSource);
     }
 

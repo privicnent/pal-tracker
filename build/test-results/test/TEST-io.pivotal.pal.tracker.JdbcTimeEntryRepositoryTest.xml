@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-03-29T15:37:05" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.099">
+<testsuite name="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-03-30T03:52:31" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.109">
   <properties/>
-  <testcase name="updateReturnsTheUpdatedRecord()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.016"/>
-  <testcase name="createReturnsTheCreatedTimeEntry()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.007"/>
-  <testcase name="findReturnsNullWhenNotFound()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.006"/>
-  <testcase name="createInsertsATimeEntryRecord()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.019"/>
+  <testcase name="updateReturnsTheUpdatedRecord()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.02"/>
+  <testcase name="createReturnsTheCreatedTimeEntry()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.01"/>
+  <testcase name="findReturnsNullWhenNotFound()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.01"/>
+  <testcase name="createInsertsATimeEntryRecord()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.013"/>
   <testcase name="deleteRemovesTheRecord()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.013"/>
-  <testcase name="updateUpdatesTheRecord()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.012"/>
-  <testcase name="findFindsATimeEntry()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.011"/>
-  <testcase name="listFindsAllTimeEntries()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.011"/>
+  <testcase name="updateUpdatesTheRecord()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.015"/>
+  <testcase name="findFindsATimeEntry()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.014"/>
+  <testcase name="listFindsAllTimeEntries()" classname="io.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

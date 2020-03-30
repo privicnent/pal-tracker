@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-03-30T03:52:31" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.022">
+<testsuite name="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-03-30T04:04:49" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.024">
   <properties/>
-  <testcase name="create()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.002"/>
-  <testcase name="delete()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.011"/>
+  <testcase name="create()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.001"/>
+  <testcase name="delete()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.013"/>
   <testcase name="find_MissingEntry()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.001"/>
-  <testcase name="update()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.001"/>
+  <testcase name="update()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.0"/>
   <testcase name="deleteKeepsTrackOfLatestIdProperly()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.001"/>
-  <testcase name="find()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.0"/>
-  <testcase name="list()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.004"/>
-  <testcase name="update_MissingEntry()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.0"/>
+  <testcase name="find()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.001"/>
+  <testcase name="list()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.003"/>
+  <testcase name="update_MissingEntry()" classname="io.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.001"/>
   <system-out><![CDATA[isEmpty == false
 isEmpty == true
 chk hasNext

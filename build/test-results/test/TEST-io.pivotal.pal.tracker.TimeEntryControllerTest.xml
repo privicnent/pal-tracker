@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.pivotal.pal.tracker.TimeEntryControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-03-30T03:52:31" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.318">
+<testsuite name="io.pivotal.pal.tracker.TimeEntryControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-03-30T04:04:49" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.471">
   <properties/>
-  <testcase name="testList()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.298"/>
-  <testcase name="testRead()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.004"/>
-  <testcase name="testRead_NotFound()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.002"/>
-  <testcase name="testUpdate_NotFound()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.003"/>
-  <testcase name="testCreate()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.003"/>
-  <testcase name="testDelete()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.002"/>
-  <testcase name="testUpdate()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.002"/>
+  <testcase name="testList()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.426"/>
+  <testcase name="testRead()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.005"/>
+  <testcase name="testRead_NotFound()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.004"/>
+  <testcase name="testUpdate_NotFound()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.011"/>
+  <testcase name="testCreate()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.009"/>
+  <testcase name="testDelete()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.005"/>
+  <testcase name="testUpdate()" classname="io.pivotal.pal.tracker.TimeEntryControllerTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
